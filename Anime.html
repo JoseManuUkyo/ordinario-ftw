@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="EstilosPagina.css">
+    <script src="contro.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Animes</h1>
+            <p>En este espacio encontraras datos de animes que estén en emisión y algunos
+                 que están en pausa para hacer otra temporada o que hayan concluido
+            </p>
+    </header>
+    <hr>
+    <main>
+        <section aria-labelledby="historia-anime">
+        <h3 id="historia-anime">Historia del anime</h3>
+            <p>La historia del anime se remonta a principios del siglo XX, cuando Japón produjo sus primeras películas animadas en la década de 1910,
+            influenciado por las técnicas de animación occidentales. Inicialmente, estas películas eran cortometrajes, y la primera obra animada japonesa verificable
+            data de 1917.  </p>
+        <hr>
+        </section>
+
+        <section aria-label="Listado de animes">
+            <h3>Datos de los Animes</h3>
+            <div role="tablist" aria-label="Listado de animes">
+                <button role="tab" id="tab1" aria-selected="true" aria-controls="pes1">Animes en emisión</button>
+                <button role="tab" id="tab2" aria-selected="true" aria-controls="pes2">Animes en Pausa</button>
+                <button role="tab" id="tab3" aria-selected="true" aria-controls="pes3">Animes Finalizados</button>
+            </div>
+
+            <div id="pes1" role="tabpanel" tabindex="0" aria-labelledby="tab1">
+                <h2>Animes en emisión</h2>
+                <fieldset>I've Been Killing Slimes From 300 years and Maxed Out My Level:
+                    <hr>
+                    <div id="slimeAzusa"></div>
+                    Se trata de una chica llamada Azusa Aizawa, quien por una sobredosis de estres y no dejar de trabajar, murio en su trabajo y fue reencarda en otro mundo
+                    por una diosa, ahi ella se convierte en una bruja y vive felizmente en un altiplano cazando slimes y viviendo tranquilamente por 300 años, pero sin darse cuenta
+                    que habia llegado al nivel maximo y con eso llegaron varias personas que cambiaron su vida para algo mejor. 
+                </fieldset>
+                <br>
+                <fieldset>
+                    Los Diarios de la Boticaria
+                    <hr>
+                    <div id="DiariosBoticaria"></div>
+                    Se trata de una chica que trabaja como asistenete de un boticario (padre adoptivo), un dia al buscar plantas medicinales, esta fue raptada y vendida al palacio del emperadoe
+                    y trabaja como empleada de limpieza, pero al ver que habia pasado algo con los herederos del rey, ella decidio mandar un mensaje para hacer saber que lo provocaba, para 
+                    algunos no le tomaron importancia su mensaje, pero para otros vieron que fue una salvación. Una de las concubinas del emperador perdio a su hijo, pero a la segunda concubina pudo salver a su hija
+                    gracias al mensaje de ella y por eso cambia su posición de limpieza a catadora de venenos. Ella es casi inmune a los venenos, por lo que ella puede saber si la comida esta envenenada o no.
+                </fieldset>
+            </div>
+
+            <div id="pes2" role="tabpanel"  tabindex="0" aria-labelledby="tab2">
+                <h2>Animes en pausa</h2>
+                <fieldset>Mairimashita Iruma-Kun:
+                    <hr>
+                    <div id="IrumaDemonio"></div>
+                    Esta hsitoriase trata de un chico llamado Iruma Susuki de 15 años, fue vendido por sus padres a un demonio llamado Sullivan
+                    Un demonio de alto nivel que compro a Iruma a sus padres y el lo convirtio en su nieto y va a la prestigiosa escuela de Babylys. Ahi conoce a sus amigos de la clase de inadaptados (los llaman asi por su comportamiento),
+                    ahi conoce a sus mejores amigos Asmodeus Alice y Valac Clara, dos demonios que eran polos opuestos y tambien a la Jefa del consejo estudiantil Azazel Ameri, quien ella en los primeros momentos que via a Iruma, se dio cuenta
+                    que era un humano, en ese momento, el creyo que lo mandarian de nuevo al mundo humano, pero como el puede leer un libro que le gusta a Ameri, ella guarda el secreto y no se lo cuenta a su padre que es de la policia del inframundo. 
+                </fieldset>
+            </div>
+
+            <div id="pes3" role="tabpanel"  tabindex="0" aria-labelledby="tab3">
+                <h2>Animes Finalizados</h2>
+                <fieldset>Neon Genesis Evangelion:
+                    <hr>
+                    <div id="EVA-01"></div>
+                    En un futuro post-apocalíptico, la humanidad ha sido devastada por un cataclismo llamado Segundo Impacto. Años después,
+                    misteriosas criaturas conocidas como Ángeles comienzan a atacar la Tierra. Para defenderse, la organización paramilitar NERV crea los EVAs,
+                    enormes mechas biológicos que solo pueden ser pilotados por adolescentes seleccionados.
+
+                    El protagonista, Shinji Ikari, es obligado por su padre (el frío comandante Gendo Ikari) a pilotar el EVA-01.
+                    Aunque es reacio y emocionalmente inestable, Shinji acepta para salvar a la humanidad y ganar la aprobación de su padre.
+                </fieldset>
+            </div>
+        </section>
+        <hr>
+        <nav aria-label="Navegacion entre secciones">
+            <h3>Cambio de página</h3>
+            <div>
+                <a href="PaginaNuevaProyecto.html">
+                    <button>Inicio</button>
+                </a>
+                <a href="PlayStation.html">
+                    <button>Play Station</button>
+                </a>
+                <a href="Nintendo.html">
+                    <button>Nintendo</button>
+                </a>
+            </div>
+        </nav>
+    </main>
+</body>
+</html>
