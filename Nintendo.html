@@ -8,22 +8,29 @@
     <script src="contro.js"></script>
 </head>
 <body>
-    <h1>Juegos de Nintendo</h1>
-    <p>En este espacio se encontraran información de algunos juegos</p>
-    <hr>
-    <h3>Creador de la consola</h3>
-    <p>Nintendo fue fundada por Fusajiro Yamauchi en 1889 como fabricante de cartas hanafuda. Más tarde, se diversificó en la industria de los videojuegos,
-        lanzando su primera consola, Famicom, en Japón en 1983 y
-        luego como Nintendo Entertainment System (NES) en Norteamérica.  </p>
+    <header>
+        <h1>Juegos de Nintendo</h1>
+        <p>En este espacio se encontraran información de algunos juegos</p>
+        <hr>
+    </header>
+
+    <main>
+        <section aria-labelledby="Creador de la consola">
+            <h3 id="Creador de la consola">Creador de la consola</h3>
+            <p>Nintendo fue fundada por Fusajiro Yamauchi en 1889 como fabricante de cartas hanafuda. Más tarde, se diversificó en la industria de los videojuegos,
+            lanzando su primera consola, Famicom, en Japón en 1983 y
+            luego como Nintendo Entertainment System (NES) en Norteamérica.  </p>
+        </section>
     <hr>
     
+    <section aria-label="Lista de Juegos">
     <h3>Datos de los Juegos</h3>
     <div role="tablist">
         <button role="tab" id="tab1" aria-selected="true" aria-controls="pes1">Super Mario Odyssey</button>
         <button role="tab" id="tab2" aria-selected="true" aria-controls="pes2">Castlevania: Dominus Collection</button>
         <button role="tab" id="tab3" aria-selected="true" aria-controls="pes3">Metroid: La saga</button>
     </div>
-    <div id="pes1" role="tabpanel" aria-labelledby="tab1">
+    <div id="pes1" role="tabpanel"  tabindex="0" aria-labelledby="tab1">
         <h2>Super Mario Odyssey</h2>
         <fieldset>Información del Juego:
             <hr>
@@ -36,7 +43,7 @@
         <p>Todos los derechos están reservados para Nintendo</p>
     </div>
 
-    <div id="pes2" role="tabpanel" aria-labelledby="tab2">
+    <div id="pes2" role="tabpanel" tabindex="0" aria-labelledby="tab2">
         <h2>Castlevania</h2>
         <fieldset>Información del Juego:
             <hr>
@@ -49,7 +56,7 @@
     </div>
 
 
-    <div id="pes3" role="tabpanel" aria-labelledby="tab2">
+    <div id="pes3" role="tabpanel"  tabindex="0" aria-labelledby="tab2">
         <h2>Metroid</h2>
         <fieldset>Información del Juego:
             <hr>
@@ -62,21 +69,23 @@
         </fieldset>
         <p>Todos los derechos están reservados para Nintendo</p>
         <hr>
-        
+    </section>    
     </div>
     <hr>
-    <h3>Cambio de página</h3>
-    <div>
-        <a href="PaginaNuevaProyecto.html">
-            <button>Inicio</button>
-        </a>
-        <a href="PlayStation.html">
-            <button>Play Station</button>
-        </a>
-        <a href="Anime.html">
-            <button>Animes</button>
-        </a>
-    </div>
-
+        <nav aria-label="Navegacion entre secciones">
+        <h3>Cambio de página</h3>
+        <div>
+            <a href="PaginaNuevaProyecto.html">
+                <button>Inicio</button>
+            </a>
+            <a href="PlayStation.html">
+                <button>Play Station</button>
+            </a>
+            <a href="Anime.html">
+                <button>Animes</button>
+            </a>
+            </div>
+        </nav>
+   </main> 
 </body>
 </html>

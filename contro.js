@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/DiariosBoticaria.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "DiariosBoticaria.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Los Diarios de la Boticaria";
         img.classList.add("img-boticaria");
         contenedor.appendChild(img);
@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/AzusaSlime.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "AzusaSlime.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Azusa";
         img.classList.add("img-slime");
         contenedor.appendChild(img);
@@ -50,7 +50,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/mairimashita.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "mairimashita.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Mairimashita Iruma Kun";
         img.classList.add("img-Iruma");
         contenedor.appendChild(img);
@@ -62,7 +62,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/NeoEva.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "NeoEva.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Evangelion";
         img.classList.add("img-Eva");
         contenedor.appendChild(img);
@@ -74,7 +74,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/ResidentEvil.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "ResidentEvil.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Resident Evil";
         img.classList.add("img-REV");
         contenedor.appendChild(img);
@@ -86,7 +86,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/DevilMayCry.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "DevilMayCry.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Devil May Cry";
         img.classList.add("img-DMC");
         contenedor.appendChild(img);
@@ -98,7 +98,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/marioOddysey.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "marioOddysey.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Mario";
         img.classList.add("img-mario");
         contenedor.appendChild(img);
@@ -110,7 +110,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/Castlevania.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "Castlevania.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Castlevania";
         img.classList.add("img-castlevania");
         contenedor.appendChild(img);
@@ -122,7 +122,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     if (contenedor) {
         const img = document.createElement("img");
-        img.src = "/imagen/samusMetorid.jpeg"; // Ruta relativa a tu carpeta de imágenes
+        img.src = "samusMetorid.jpeg"; // Ruta relativa a tu carpeta de imágenes
         img.alt = "Imagen de Metroid";
         img.classList.add("img-metroid");
         contenedor.appendChild(img);
