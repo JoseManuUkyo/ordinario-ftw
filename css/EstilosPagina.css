@@ -1,0 +1,135 @@
+h1{
+    text-align: center;
+    background-color: rgb(27, 234, 106);
+    color: rgb(0, 0, 255);
+    border: 3px, solid violet;
+
+}
+h2{
+    text-align: center;
+}
+
+button{
+    color:blue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+}
+
+h3{
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+form{
+    box-shadow: 20px 30px 40px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    border-color:blueviolet;
+    margin:auto;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 15px;;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type="button"], input[type="submit"]{
+    color: white;
+    background-color: blue;
+}
+
+h3{
+    background-color: rgb(118, 167, 185);
+    border: 3px, solid ;
+}
+
+.img-boticaria {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-slime {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-Iruma {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-Eva {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-REV {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-DMC {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-mario {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-castlevania {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.img-metroid {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+.footer {
+    background-color: #333;       /* Color de fondo (puedes cambiarlo) */
+    color: white;                 /* Color del texto */
+    text-align: center;           /* Centra el texto */
+    padding: 10px 0;              /* Espaciado interno */
+    position: fixed;              /* Lo fija al fondo */
+    bottom: 0;                    /* Lo pone al fondo */
+    width: 100%;                  /* Ocupa todo el ancho */
+    font-size: 0.9rem;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;
+}
